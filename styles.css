@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(255, 255, 255);
+    background-size: cover;
+}
+.box{
+    position: middle;
+    width: 800px;
+    height: 700px;
+    background: rgba(255, 255, 255, 0);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 8%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.box-img{
+    border-radius: 50%;
+    top: 10%;
+    width: 160px;
+    height: 160px;
+}
+@font-face {
+    font-family: "My Custom Font";
+    src: url(fonts/webfonts/ttf/Hack-Bold.ttf) format("truetype");
+}
+p.hack_bold{
+    font-family: "My Custom Font", Verdana, Tahoma;
+    color:rgb(0, 0, 0);
+    font-size: larger;
+}
+@font-face {
+    font-family: "My Custom Font2";
+    src: url(fonts/webfonts/ttf/Hack-Regular.ttf) format("truetype");
+}
+p.hack_regular{
+    font-family: "My Custom Font2", Verdana, Tahoma;
+    color:rgb(198, 23, 23);
+}
+
+.middle{
+    position: absolute;
+    top: 80%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+.btn{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #000000;
+    overflow: hidden;
+    position: relative;
+}
+.btn i{
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+.btn:hover i{
+    transform: scale(1.3);
+}
+.fa-instagram{
+    color:#DD2A7B;
+}
+.fa-linkedin{
+    color:#0E76A8;
+}
+.tabs{
+    color: rgb(198, 37, 37);
+    margin: 20px 50px 75px 100px;;
+    position: absolute;
+}
